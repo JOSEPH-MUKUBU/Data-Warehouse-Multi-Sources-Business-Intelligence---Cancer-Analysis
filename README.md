@@ -2,7 +2,7 @@
 
 Ce projet implémente un Data Warehouse en architecture constellation (Galaxy Schema) pour l'analyse croisée de données sur le cancer provenant de trois sources distinctes. L'architecture permet une analyse intégrée multi-dimensionnelle pour l'oncologie.
 
-## 📊 Vue d'ensemble du Projet
+##  Vue d'ensemble du Projet
 
 Ce Data Warehouse a été conçu pour centraliser et analyser des données oncologiques hétérogènes dans une structure optimisée pour le reporting et l'analyse de business intelligence. L'architecture en constellation permet de partager des dimensions communes tout en maintenant des tables de faits spécifiques à chaque domaine d'analyse.
 
@@ -25,7 +25,7 @@ Ce Data Warehouse a été conçu pour centraliser et analyser des données oncol
    - Classification: Bénin/Malin
    - Features dérivées: ratios composites
 
-## 🏗️ Architecture Technique
+##  Architecture Technique
 
 ### Stack Technologique
 - **Base de données**: PostgreSQL 13+
@@ -59,7 +59,7 @@ Ce Data Warehouse a été conçu pour centraliser et analyser des données oncol
                                               └──────────────┘
 ```
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 DWH2/
@@ -102,7 +102,7 @@ DWH2/
 └── survey lung cancer.csv
 ```
 
-## 🚀 Instructions d'Exécution
+##  Instructions d'Exécution
 
 ### 1. Installation des Dépendances
 ```bash
@@ -181,7 +181,7 @@ cd report
 pdflatex final_report.tex
 ```
 
-## 🎯 Fonctionnalités Clés Implémentées
+##  Fonctionnalités Clés Implémentées
 
 ### 1. Architecture en Constellation
 - **Dimensions partagées**: `dim_date` utilisée par toutes les tables de faits
@@ -208,7 +208,7 @@ pdflatex final_report.tex
 - **Analyses démographiques**: Distribution par âge, genre
 - **KPIs métier**: Taux de survie, prévalence, sévérité
 
-## 📈 Visualisations Générées
+##  Visualisations Générées
 
 ### Dashboard Breast Clinical
 
@@ -257,7 +257,7 @@ pdflatex final_report.tex
 ![Comparaison des Taux](dashboard/output/comparative_prevalence.png)
 *Taux de prévalence et sévérité comparés entre les domaines*
 
-## 🔧 Technologies Utilisées
+##  Technologies Utilisées
 
 ### Base de Données
 - **PostgreSQL**: SGBD relationnel avec support avancé
@@ -277,7 +277,7 @@ pdflatex final_report.tex
 ### Documentation
 - **LaTeX**: Rapport technique professionnel
 
-## 📊 Résultats Obtenus
+##  Résultats Obtenus
 
 ### Statistiques de Chargement
 - **Breast Clinical**: 4,024 enregistrements chargés
@@ -291,7 +291,7 @@ pdflatex final_report.tex
 3. **Mesures diagnostiques**: Les features morphologiques permettent une discrimination efficace entre tumeurs bénignes et malignes
 4. **Survie**: Le statut marital semble avoir un impact sur les taux de survie
 
-## �️ Détails Techniques du Travail Effectué
+##  Détails Techniques du Travail Effectué
 
 ### Phase 1: Conception du Schéma en Constellation
 
@@ -457,7 +457,7 @@ Le schéma a été conçu pour optimiser les requêtes analytiques tout en maint
 - Recommandations pour déploiement production
 - Guide d'utilisation et maintenance
 
-## �🔮 Perspectives d'Évolution
+##  Perspectives d'Évolution
 
 ### Améliorations Possibles
 1. **Temps réel**: Intégration de streaming avec Apache Kafka
@@ -472,10 +472,10 @@ Le schéma a été conçu pour optimiser les requêtes analytiques tout en maint
 - Système d'alertes automatiques
 - Export vers des outils de BI (Power BI, Tableau)
 
-## 👥 Auteurs et Contribution
+##  Auteurs et Contribution
 
 Ce projet a été développé dans le cadre d'une formation en Business Intelligence et Data Warehousing. Il démontre l'application pratique des concepts d'ETL, de schéma en constellation et d'analyse multi-sources dans le domaine médical.
 
-## 📄 Licence
+##  Licence
 
 Ce projet est à usage éducatif et de recherche. Les datasets utilisés sont disponibles publiquement pour la recherche médicale.
